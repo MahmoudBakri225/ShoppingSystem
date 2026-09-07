@@ -46,17 +46,13 @@ public class ShoppingSystem {
 
         for (Item item : cart.getItems()) {
             System.out.println(
-                    item.getName()
-                    + " | Price: " + item.getPrice()
-                    + " | Quantity: " + item.getQuantity()
-                    + " | Subtotal: " + item.getSubtotal()
+                    item.getName() + " | Price: " + item.getPrice()  + " | Quantity: " + item.getQuantity() + " | Subtotal: " + item.getSubtotal()
             );
         }
 
         // Calculate total
         System.out.println();
-        System.out.println("Total before checkout = "
-                + cart.calculateTotal());
+        System.out.println("Total before checkout = " + cart.calculateTotal());
 
         // Create Bill from Cart
         Bill bill = new Bill(1, cart);
@@ -79,8 +75,7 @@ public class ShoppingSystem {
 
         // Display final total
         System.out.println();
-        System.out.println("Final Amount to Pay = "
-                + bill.getTotalAmount());
+        System.out.println("Final Amount to Pay = "  + bill.getTotalAmount());
     }
 }
 
