@@ -1,12 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 package com.mycompany.shoppingsystem;
 
-/**
- *
- * @author KA
- */
+
 public class ShoppingSystem {
 
     public static void main(String[] args) {
