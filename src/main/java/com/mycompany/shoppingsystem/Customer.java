@@ -8,6 +8,7 @@ public class Customer {
     private ArrayList<Cart> carts;
     private ArrayList<Bill> bills;
 
+    
     // constactor
     public Customer(String name) {
         this.name = name;

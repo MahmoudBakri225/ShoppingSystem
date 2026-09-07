@@ -6,6 +6,7 @@ public class Item {
     private double price;
     private int quantity;
 
+    
     // constactor
     public Item(String name, double price, int quantity) {
         this.name = name;

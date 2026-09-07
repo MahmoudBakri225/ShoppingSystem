@@ -24,10 +24,10 @@ public class ShoppingSystem {
         System.out.println();
 
         // Create Items
-        Item chips = new Item("Chips", 10.0, 2);
-        Item water = new Item("Water", 5.0, 3);
-        Item chocolate = new Item("Chocolate", 15.0, 1);
-        Item juice = new Item("Juice", 12.0, 2);
+        Item chips = new Item("Chips", 10.0, 5);
+        Item water = new Item("Water", 5.0, 6);
+        Item chocolate = new Item("Chocolate", 15.0, 10);
+        Item juice = new Item("Juice", 12.0, 5);
 
         // Add items to the cart
         cart.addItem(chips);
@@ -39,8 +39,7 @@ public class ShoppingSystem {
         System.out.println("----- Shopping Cart -----");
 
         for (Item item : cart.getItems()) {
-            System.out.println(
-                    item.getName() + " | Price: " + item.getPrice()  + " | Quantity: " + item.getQuantity() + " | Subtotal: " + item.getSubtotal()
+            System.out.println(  item.getName() + " | Price: " + item.getPrice()  + " | Quantity: " + item.getQuantity() + " | Subtotal: " + item.getSubtotal()
             );
         }
 

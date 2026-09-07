@@ -1,7 +1,6 @@
 package com.mycompany.shoppingsystem;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Cart {
 
@@ -9,6 +8,7 @@ public class Cart {
     private Customer customer;
     private ArrayList<Item> items;
 
+    
     // constactor
     public Cart(int cartId, Customer customer) {
         this.cartId = cartId;

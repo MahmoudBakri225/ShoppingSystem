@@ -6,6 +6,7 @@ public class Bill {
     private Cart cart;
     private double totalAmount;
 
+    
     // constactor
     public Bill(int billId, Cart cart) {
         this.billId = billId;
@@ -45,7 +46,7 @@ public class Bill {
 
         System.out.println("Total = " + totalAmount);
     }
-    
+
     @Override
     public String toString() {
         return "Bill{" + "billId=" + billId + ", cart=" + cart + ", totalAmount=" + totalAmount + '}';
