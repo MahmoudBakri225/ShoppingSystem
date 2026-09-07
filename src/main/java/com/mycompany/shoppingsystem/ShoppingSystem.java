@@ -68,10 +68,8 @@ public class ShoppingSystem {
         System.out.println();
         System.out.println("----- Customer Information -----");
         System.out.println("Name: " + ahmed.getName());
-        System.out.println("Number of Carts: "
-                + ahmed.getCarts().size());
-        System.out.println("Number of Bills: "
-                + ahmed.getBills().size());
+        System.out.println("Number of Carts: " + ahmed.getCarts().size());
+        System.out.println("Number of Bills: " + ahmed.getBills().size());
 
         // Display final total
         System.out.println();
@@ -80,4 +78,3 @@ public class ShoppingSystem {
 }
 
 
-//The code is a Shopping System built using Java and OOP. It manages the Customer, Cart, Items, and Bill. The customer can have a shopping cart, add items with their prices and quantities, calculate the total amount, and create a bill that displays the purchased items and the final total. It also uses ArrayList to store the customer's carts and bills.
